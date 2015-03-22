@@ -1,11 +1,11 @@
-(ns driving-cycle.walk)
+(ns eidens.markov.walk)
 
 (defn proxy-with-prev-result
   "Returns an arg-less function that calls the given function with the
   result of its previous invocation (or the given initial value, if
   it's the first invocation)."
   [func initial]
-  (let [prev (ref initial)] ; using ref for thread safety
+  (let [prev (ref initial)]
     (fn []
       ; alter invokes func with the actual (deref-ed) value of prev
       ; then sets prev to the return value of that invocation

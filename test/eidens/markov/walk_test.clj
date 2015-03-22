@@ -1,6 +1,6 @@
-(ns driving-cycle.walk-test
+(ns eidens.markov.walk-test
   (:require [clojure.test :refer :all]
-            [driving-cycle.walk :refer :all]))
+            [eidens.markov.walk :refer :all]))
 
 (deftest proxy-with-prev-result-test
   (testing "stateful functions"

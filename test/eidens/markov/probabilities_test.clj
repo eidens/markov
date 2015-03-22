@@ -1,6 +1,6 @@
-(ns driving-cycle.markov-probabilities-test
+(ns eidens.markov.probabilities-test
   (:require [clojure.test :refer :all]
-            [driving-cycle.markov-probabilities :as probabilities]))
+            [eidens.markov.probabilities :as probabilities]))
 
 (deftest basic-prob-matrix-test
   (testing "generation of a basic markov matrix"

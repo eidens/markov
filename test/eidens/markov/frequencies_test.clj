@@ -1,6 +1,6 @@
-(ns driving-cycle.markov-frequencies-test
+(ns eidens.markov.frequencies-test
   (:require [clojure.test :refer :all]
-            [driving-cycle.markov-frequencies :as frequencies]))
+            [eidens.markov.frequencies :as frequencies]))
 
 (deftest basic-freq-matrix-test
   (testing "generation of a basic markov matrix"

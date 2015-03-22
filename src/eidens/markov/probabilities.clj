@@ -1,5 +1,5 @@
-(ns driving-cycle.markov-probabilities
-  (:require [driving-cycle.markov-frequencies :as frequencies]))
+(ns eidens.markov.probabilities
+  (:require [eidens.markov.frequencies :as frequencies]))
 
 (defn- transform-map
   [map func]
