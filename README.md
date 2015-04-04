@@ -1,14 +1,18 @@
 # markov
 
-A Clojure library designed to ... well, that part is up to you.
+A simple Clojure library for the generation of markov matrices.
+Accepts Clojure collections with items of any or different types and
+produces a frequency or probability matrix.
 
 ## Usage
 
-FIXME
+```` Clojure
+(eidens.markov.frequencies/matrix 1 '(0 1 0))
+=> {'(0) {'(1) 1},
+    '(1) {'(0) 1}}
+````
 
 ## License
-
-Copyright © 2015 FIXME
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
